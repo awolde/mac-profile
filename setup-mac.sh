@@ -1,10 +1,10 @@
-
+#!/usr/bin/env bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-brew install gnu-sed terraform wget jq sshuttle bash-completion
+brew install gnu-sed terraform wget jq sshuttle bash-completion lolcat sl asciiquarium
 wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-290.0.0-darwin-x86_64.tar.gz
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/git-completion.bash
 tar xfvz google-cloud-sdk-290.0.0-darwin-x86_64.tar.gz
-cd google-cloud-sdk && ./install.sh --rc-path ~/.profile -q
+cd ./google-cloud-sdk/install.sh --rc-path ~/.profile -q
 gcloud components install kubectl
 gcloud components install alpha -q
 wget https://download.docker.com/mac/stable/Docker.dmg
