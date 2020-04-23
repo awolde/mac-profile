@@ -1,6 +1,6 @@
 alias ll='ls -la'
 alias l="ls -l"
-alias git=hub
+#alias git=hub
 #alias kc="kitchen converge"
 #alias kl="kitchen login"
 #alias kd="kitchen destroy"
@@ -49,9 +49,7 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 complete -C /usr/local/bin/vault vault
-#export GOOGLE_APPLICATION_CREDENTIALS=~/Downloads/terraform-states-proj-conagra-87cf556756ea.json
-#export GOOGLE_APPLICATION_CREDENTIALS=/Users/awolde/Downloads/terraform-admin.json
-export GOOGLE_APPLICATION_CREDENTIALS=/Users/awolde/Downloads/ml-kubeflow-243419-f883e0ff1770.json
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/awolde/Downloads/terraform-admin.json
 
 # Setting PATH for Python 3.7
 # The original version is saved in .profile.pysave
