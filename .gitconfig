@@ -1,25 +1,25 @@
 [user]
 	name = Aman Wolde
-	email = aman.wolde@mavenwave.com
+	email = aman.wolde@amangb.com
 [alias]
 	co=checkout
 	st=status
   ff=pull origin master
-    pr="!git commit -p && git push awolde && hub pull-request"
-    pro="!git commit -p && git push origin `git branch | grep '*' | cut -d' ' -f2` && hub pull-request"
-    rems=remote -v
-    cp=commit -p
-    ru=remote add upstream
-    ro=remote add origin
-    up = "!git remote update --prune && git rebase origin/master"
+  pr="!git commit -p && git push awolde && hub pull-request"
+  pro="!git commit -p && git push origin `git branch | grep '*' | cut -d' ' -f2` && hub pull-request"
+  rems=remote -v
+  cp=commit -p
+  ru=remote add upstream
+  ro=remote add origin
+  up = "!git remote update --prune && git rebase origin/master"
     #up=remote update --prune
-    copr=!sh -c 'echo usage: git copr pr_number new_branch && git fetch origin pull/${0}/head:${1}'
+  copr=!sh -c 'echo usage: git copr pr_number new_branch && git fetch origin pull/${0}/head:${1}'
 [push]
 	default = simple
 [hub]
-    host = git.mw.com
+  host = git.amangb.com
 	protocol = git
 [rerere]
-    enabled = true
+  enabled = true
 [branch]
   autosetuprebase = always
